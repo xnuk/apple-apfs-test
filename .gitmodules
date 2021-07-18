@@ -1,0 +1,3 @@
+[submodule "con"]
+	path = con
+	url = https://github.com/disjukr/con
