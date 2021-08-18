@@ -19,4 +19,6 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v2
-    - run: ls
+    - run: cat Con | grep test
+    - run: cat '한국어 NFC 테스트' | grep NFC
+    - run: cat '한국어 NFC 테스트' | grep NFD
